@@ -1,6 +1,4 @@
-# Workstation system: quetta
-
-# Workstation system: quetta
+# SQAI Workstation System: quetta
 
 ## hosts
 
@@ -33,6 +31,17 @@
   * /home - SSD 18 TB
   * /work - HD 60 TB
   * spare: SSD 18TB, HD 60+60+60TB
+
+## 学外からのアクセス
+
+* まず、アクセスサーバ(qport.sqai.jp)にSSHし、そこからさらにログインサーバ(quetta)にSSHする
+* その際、ssh-agent転送を有効にしておくこと
+
+   ```bash
+   $ ssh -A qport.sqai.jp -l ユーザ名
+   ...
+   $ ssh quetta
+   ```
 
 ## Compilers, Libraries, etc / コンパイラ、ライブラリ、他
 
@@ -78,10 +87,10 @@ Slurmを使用
 ## Test programs
 
 * tests/mpicheck.cpp : 割り当てられたプロセス数スレッド数を確認するプログラム
-
 * tests/gpucheck.py : 割り当てられたGPUを確認するプログラム
+* How to build test programs
 
-```bash
-$ cmake -B build .
-$ cmake --build build
-```
+   ```bash
+   $ cmake -B build .
+   $ cmake --build build
+   ```
