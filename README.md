@@ -38,9 +38,10 @@
 * その際、ssh-agent転送を有効にしておくこと
 
    ```bash
-   $ ssh -A qport.sqai.jp -l ユーザ名
-   ...
-   $ ssh quetta
+   # 最初にアクセスサーバにSSH
+   ssh -A qport.sqai.jp -l ユーザ名
+   # そこからさらにログインサーバにSSH
+   ssh quetta
    ```
 
 ## Compilers, Libraries, etc / コンパイラ、ライブラリ、他
@@ -91,6 +92,6 @@ Slurmを使用
 * How to build test programs
 
    ```bash
-   $ cmake -B build .
-   $ cmake --build build
+   cmake -B build .
+   cmake --build build
    ```
