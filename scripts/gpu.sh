@@ -10,4 +10,4 @@
                             ## use --gres=gpu:a800:N for A800 GPUs
 #SBATCH --time=1-00:00:00   ## day-hour:min:sec
 
-./build/venv/bin/python3 gpucheck.py
+./build/venv/bin/python3 ./tests/gpucheck.py
