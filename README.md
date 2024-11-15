@@ -71,7 +71,7 @@ Slurmを使用
   * `sbatch スクリプト名`
   * スクリプトの例
      * [scripts/single.sh](scripts/single.sh): 1ノード/1プロセス/1スレッド
-     * [scripts/openmp.sh](scripts/openmp): 1ノード/1プロセス/複数スレッド (OpenMP)
+     * [scripts/openmp.sh](scripts/openmp.sh): 1ノード/1プロセス/複数スレッド (OpenMP)
      * [scripts/mpi.sh](scripts/mpi.sh): 1ノード/複数プロセス (MPI)
      * [scripts/hybrid.sh](scripts/hybrid.sh): 1ノード/複数プロセス/複数スレッド (MPI+OpenMP)
      * [scripts/multinode.sh](scripts/multinode.sh): 複数ノード/複数プロセス/複数スレッド (MPI+OpenMP)
