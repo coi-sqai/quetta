@@ -17,6 +17,10 @@
     * CPU: AMD EPYC 9654 96-Core Processor x 2
     * Total Number of Physical Cores: 192
     * Total Memory: 750 GB
+* quetta-c21
+  * CPU: AMD EPYC 9754 128-Core Processor x 2
+  * Total Number of Physical Cores: 256
+  * Total Memory: 1.5 TB
 * quetta-g01 (GPGPU server)
   * CPU: AMD EPYC 7543 32-Core Processor x 2
   * Total Number of Physical Cores: 64
@@ -27,6 +31,11 @@
   * Total Number of Physical Cores: 24
   * Total Memory: 1000 GB
   * NVIDIA A800 40GB Active x 4
+* quetta-g03 (GPGPU server)
+  * CPU: INTEL(R) XEON(R) GOLD 6530 x 2
+  * Total Number of Physical Cores: 64
+  * Total Memory: 1 TB
+  * NVIDIA H100 x 2
 * filesystem
   * /home - SSD 18 TB
   * /work - HD 60 TB
