@@ -5,7 +5,7 @@
 * quetta.phys.s.u-tokyo.ac.jp (login server ログインサーバ)
   * CPU: Intel(R) Xeon(R) E-2334 CPU @ 3.40GHz x 1
   * Total Number of Cores: 4
-  * Total Memory: 32738508 kB
+  * Total Memory: 128 GB
   * only accepts public key authentication / 公開鍵認証のみ
 * quetta-c01, quetta-c02, quetta-c03, quetta-c04, quetta-c05, quetta-c06 (CPU server)
   * 1台あたり
