@@ -9,14 +9,14 @@
   * only accepts public key authentication / 公開鍵認証のみ
 * quetta-c01, quetta-c02, quetta-c03, quetta-c04, quetta-c05, quetta-c06 (CPU server)
   * 1台あたり
-    * CPU: Intel(R) Xeon(R) Platinum 8358 CPU @ 2.60GHz x 2
-    * Total Number of Physical Cores: 64
-    * Total Memory: 500 GB
+     * CPU: Intel(R) Xeon(R) Platinum 8358 CPU @ 2.60GHz x 2
+     * Total Number of Physical Cores: 64
+     * Total Memory: 500 GB
 * quetta-c11, quetta-c12, quetta-c13 (CPU server)
   *  1台あたり
-    * CPU: AMD EPYC 9654 96-Core Processor x 2
-    * Total Number of Physical Cores: 192
-    * Total Memory: 750 GB
+     * CPU: AMD EPYC 9654 96-Core Processor x 2
+     * Total Number of Physical Cores: 192
+     * Total Memory: 750 GB
 * quetta-c21
   * CPU: AMD EPYC 9754 128-Core Processor x 2
   * Total Number of Physical Cores: 256
