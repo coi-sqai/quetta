@@ -55,16 +55,13 @@
 
 ## Compilers, Libraries, etc / コンパイラ、ライブラリ、他
 
-* Ubuntu 22.04
-* GNU Compiler 11.4 (gcc, g++, gfortran)
-* Intel(R) oneAPI Compiler 2024.2 (icx, icpx, ifx)
-* openmpi 4.1.0 (mpicc, mpicxx, mpif90)
-  * デフォルトでは mpi* は Intel compiler を呼び出します
-  * GNU compiler を使いたい場合は ```source /opt/materiapps/gcc/env.sh``` を実行してください
+* Ubuntu: lsb_release -d
+* GNU Compiler (gcc, g++, gfortran): gcc --version
+* Intel(R) oneAPI Compiler (icx, icpx, ifx): icx -V
 * OpenBLAS, MKL
-* cuda 12.6
-* cmake 3.26.4
-* python 3.11.4 including numpy, scipy, matplotlib, etc
+* cuda: ls -l /etc/alternatives/cuda
+* cmake: cmake --version
+* python3 including numpy, scipy, matplotlib, etc: python3 --version
 
 ## Job Scheduler
 
@@ -93,6 +90,7 @@ Slurmを使用
   * `srun --pty bash`
   * `srun --pty --gres=gpu:a100:1 bash` (A100を1枚使う場合)
   * `srun --pty --gres=gpu:a800:1 bash` (A800を1枚使う場合)
+  * `srun --pty --gres=gpu:h100:1 bash` (H100を1枚使う場合)
 
 ## Test programs
 
