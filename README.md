@@ -2,11 +2,16 @@
 
 ## hosts
 
+* qport.sqai.jp (東大外部からのアクセス用 ログインサーバ)
+  * only accepts public key authentication / 公開鍵認証のみ
+
 * quetta.phys.s.u-tokyo.ac.jp (login server ログインサーバ)
+  * 東大学内からのみログイン可
   * only accepts public key authentication / 公開鍵認証のみ
 
 | hostname | OS | CPU | Sockets | Phys. Cores per CPU | Total Logical Cores | Hyperthreading | BogoMIPS | Memory (GB) | GPU | #GPUs |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| qport | Ubuntu 24.04.3 LTS | Intel Core Processor (Broadwell) | 4 | 1 | 4 | 0 | 4399.99 | 3 |  | 0 |
 | quetta | Ubuntu 24.04.3 LTS | Intel(R) Xeon(R) E-2334 CPU @ 3.40GHz | 1 | 4 | 8 | 1 | 6816.00 | 125 |  | 0 |
 | quetta-c01 | Ubuntu 24.04.2 LTS | Intel(R) Xeon(R) Platinum 8358 CPU @ 2.60GHz | 2 | 32 | 64 | 0 | 5200.00 | 503 |  | 0 |
 | quetta-c02 | Ubuntu 24.04.2 LTS | Intel(R) Xeon(R) Platinum 8358 CPU @ 2.60GHz | 2 | 32 | 64 | 0 | 5200.00 | 503 |  | 0 |
