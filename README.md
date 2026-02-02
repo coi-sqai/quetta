@@ -2,7 +2,7 @@
 
 ## hosts
 
-* qport.sqai.jp (東大外部からのアクセス用 ログインサーバ)
+* qport.sqai.jp (東大外部からのアクセス用踏み台サーバ)
   * only accepts public key authentication / 公開鍵認証のみ
 
 * quetta.phys.s.u-tokyo.ac.jp (login server ログインサーバ)
